@@ -21,5 +21,9 @@ DBconnection class :  *it provides the connection between the database file call
 database (main)class: *provides  all instructions to the user about transactions .
  Note:*database is the main class o the atm program and remaining are classes created and a database ile called accountdetails is included in the program
       *so to test execution of program just create a new java project and copy paste these classes and database file or the entire project is also added in the github so to test         just download it and run in the eclipse ide. 
-      *i have used sqlite-jdbc-3.27.2.1 in java build path as class path.         
+      *i have used sqlite-jdbc-3.27.2.1 in java build path as class path. 
+I have implimented all my individual constraints 
+And in common constraints I have created a secret password
+To view the account details and transaction details of the user and created a function which will generate otp when we enter our mobile number during every transaction 
+And also implemented a mini display to show the account details and implemented database file to include account details table in java program       
 REPOSITORY LINK: https://github.com/roopasree123/casestdy2-ATM.git              
